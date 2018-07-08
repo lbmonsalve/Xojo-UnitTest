@@ -2,6 +2,7 @@ Type=Desktop
 RBProjectVersion=2011.043
 MinIDEVersion=20070100
 Class=App;App.rbbas;&h24975FFF;&h0;false
+Window=UnitTestPanel;UnitTestPanel.rbfrm;&h44727FFF;&h0;false
 Window=UnitTestWindow;UnitTestWindow.rbfrm;&h10E92FFF;&h0;false
 MenuBar=UnitTestMenuBar;UnitTestMenuBar.rbmnu;&h5D72FFF;&h0;false
 BuildSteps=Build Automation;Build Automation.rbbas;&h522C1FFF;&h0;false
