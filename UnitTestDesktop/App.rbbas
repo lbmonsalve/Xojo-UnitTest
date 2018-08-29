@@ -1,6 +1,13 @@
 #tag Class
 Protected Class App
 Inherits Application
+	#tag Event
+		Sub Open()
+		  App.AutoQuit= True
+		End Sub
+	#tag EndEvent
+
+
 	#tag Constant, Name = kEditClear, Type = String, Dynamic = False, Default = \"&Delete", Scope = Public
 		#Tag Instance, Platform = -, Language = Default, Definition  = \"&Delete"
 		#Tag Instance, Platform = Mac OS, Language = Default, Definition  = \"&Delete"

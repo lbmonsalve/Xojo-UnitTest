@@ -30,17 +30,17 @@ Begin ContainerControl UnitTestPanel
       HelpTag         =   ""
       Index           =   -2147483648
       InitialParent   =   ""
-      Left            =   754
-      LockBottom      =   False
+      Left            =   285
+      LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   False
       LockRight       =   True
-      LockTop         =   True
+      LockTop         =   False
       Scope           =   0
       TabIndex        =   0
       TabPanelIndex   =   0
       TabStop         =   True
-      Top             =   3
+      Top             =   511
       Visible         =   False
       Width           =   16
    End
@@ -173,7 +173,7 @@ Begin ContainerControl UnitTestPanel
       Bold            =   False
       Caption         =   "Selected Test Results"
       Enabled         =   True
-      Height          =   268
+      Height          =   288
       HelpTag         =   ""
       Index           =   1
       InitialParent   =   ""
@@ -190,7 +190,7 @@ Begin ContainerControl UnitTestPanel
       TextFont        =   "System"
       TextSize        =   16
       TextUnit        =   0
-      Top             =   220
+      Top             =   200
       Underline       =   False
       Visible         =   True
       Width           =   485
@@ -222,7 +222,7 @@ Begin ContainerControl UnitTestPanel
          TextFont        =   "System"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   251
+         Top             =   231
          Transparent     =   True
          Underline       =   False
          Visible         =   True
@@ -256,7 +256,7 @@ Begin ContainerControl UnitTestPanel
          TextFont        =   "System"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   283
+         Top             =   263
          Transparent     =   False
          Underline       =   False
          Visible         =   True
@@ -290,7 +290,7 @@ Begin ContainerControl UnitTestPanel
          TextFont        =   "System"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   283
+         Top             =   263
          Transparent     =   True
          Underline       =   False
          Visible         =   True
@@ -308,7 +308,7 @@ Begin ContainerControl UnitTestPanel
          DataSource      =   ""
          Enabled         =   True
          Format          =   ""
-         Height          =   116
+         Height          =   136
          HelpTag         =   ""
          HideSelection   =   True
          Index           =   -2147483648
@@ -336,7 +336,7 @@ Begin ContainerControl UnitTestPanel
          TextFont        =   "System"
          TextSize        =   16
          TextUnit        =   0
-         Top             =   352
+         Top             =   332
          Underline       =   False
          UseFocusRing    =   True
          Visible         =   True
@@ -370,7 +370,7 @@ Begin ContainerControl UnitTestPanel
          TextFont        =   "System"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   323
+         Top             =   303
          Transparent     =   False
          Underline       =   False
          Visible         =   True
@@ -404,7 +404,7 @@ Begin ContainerControl UnitTestPanel
          TextFont        =   "System"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   251
+         Top             =   231
          Transparent     =   True
          Underline       =   False
          Visible         =   True
@@ -433,7 +433,7 @@ Begin ContainerControl UnitTestPanel
       TextFont        =   "System"
       TextSize        =   16
       TextUnit        =   0
-      Top             =   20
+      Top             =   0
       Underline       =   False
       Visible         =   True
       Width           =   485
@@ -465,7 +465,7 @@ Begin ContainerControl UnitTestPanel
          TextFont        =   "System"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   50
+         Top             =   30
          Transparent     =   False
          Underline       =   False
          Visible         =   True
@@ -499,7 +499,7 @@ Begin ContainerControl UnitTestPanel
          TextFont        =   "System"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   50
+         Top             =   30
          Transparent     =   False
          Underline       =   False
          Visible         =   True
@@ -533,7 +533,7 @@ Begin ContainerControl UnitTestPanel
          TextFont        =   "System"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   82
+         Top             =   62
          Transparent     =   False
          Underline       =   False
          Visible         =   True
@@ -567,7 +567,7 @@ Begin ContainerControl UnitTestPanel
          TextFont        =   "System"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   114
+         Top             =   94
          Transparent     =   False
          Underline       =   False
          Visible         =   True
@@ -601,7 +601,7 @@ Begin ContainerControl UnitTestPanel
          TextFont        =   "System"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   146
+         Top             =   126
          Transparent     =   False
          Underline       =   False
          Visible         =   True
@@ -635,7 +635,7 @@ Begin ContainerControl UnitTestPanel
          TextFont        =   "System"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   178
+         Top             =   158
          Transparent     =   False
          Underline       =   False
          Visible         =   True
@@ -669,7 +669,7 @@ Begin ContainerControl UnitTestPanel
          TextFont        =   "System"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   50
+         Top             =   30
          Transparent     =   True
          Underline       =   False
          Visible         =   True
@@ -703,7 +703,7 @@ Begin ContainerControl UnitTestPanel
          TextFont        =   "System"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   50
+         Top             =   30
          Transparent     =   True
          Underline       =   False
          Visible         =   True
@@ -737,7 +737,7 @@ Begin ContainerControl UnitTestPanel
          TextFont        =   "System"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   82
+         Top             =   62
          Transparent     =   True
          Underline       =   False
          Visible         =   True
@@ -771,7 +771,7 @@ Begin ContainerControl UnitTestPanel
          TextFont        =   "System"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   114
+         Top             =   94
          Transparent     =   True
          Underline       =   False
          Visible         =   True
@@ -805,7 +805,7 @@ Begin ContainerControl UnitTestPanel
          TextFont        =   "System"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   146
+         Top             =   126
          Transparent     =   True
          Underline       =   False
          Visible         =   True
@@ -839,7 +839,7 @@ Begin ContainerControl UnitTestPanel
          TextFont        =   "System"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   178
+         Top             =   158
          Transparent     =   True
          Underline       =   False
          Visible         =   True
@@ -873,7 +873,7 @@ Begin ContainerControl UnitTestPanel
          TextFont        =   "System"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   178
+         Top             =   158
          Transparent     =   False
          Underline       =   False
          Visible         =   True
@@ -907,7 +907,7 @@ Begin ContainerControl UnitTestPanel
          TextFont        =   "System"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   178
+         Top             =   158
          Transparent     =   True
          Underline       =   False
          Visible         =   True
@@ -932,7 +932,7 @@ Begin ContainerControl UnitTestPanel
       GridLinesVertical=   0
       HasHeading      =   False
       HeadingIndex    =   -1
-      Height          =   519
+      Height          =   539
       HelpTag         =   ""
       Hierarchical    =   True
       Index           =   -2147483648
@@ -956,7 +956,7 @@ Begin ContainerControl UnitTestPanel
       TextFont        =   "System"
       TextSize        =   16
       TextUnit        =   0
-      Top             =   31
+      Top             =   11
       Underline       =   False
       UseFocusRing    =   False
       Visible         =   True

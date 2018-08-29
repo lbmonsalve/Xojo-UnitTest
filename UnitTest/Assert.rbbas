@@ -608,13 +608,13 @@ Protected Class Assert
 		Sub Fail(failMessage As String, message As String = "")
 		  Failed = True
 		  Group.CurrentTestResult.Result = TestResult.Failed
-		
+		  
 		  Message(message + ": " + failMessage)
-		
+		  
 		  If Group.StopTestOnFail Then
-			#Pragma BreakOnExceptions False
-			Raise New UnitTestFailedException
-			#Pragma BreakOnExceptions Default
+		    #Pragma BreakOnExceptions False
+		    Raise New UnitTestFailedException
+		    #Pragma BreakOnExceptions Default
 		  End If
 		End Sub
 	#tag EndMethod
@@ -704,8 +704,8 @@ Protected Class Assert
 		Sub Pass(message As String = "")
 		  Failed = False
 		  If Group.CurrentTestResult.Result <> TestResult.Failed Then
-			Group.CurrentTestResult.Result = TestResult.Passed
-			Message(message)
+		    Group.CurrentTestResult.Result = TestResult.Passed
+		    Message(message)
 		  End If
 		End Sub
 	#tag EndMethod
