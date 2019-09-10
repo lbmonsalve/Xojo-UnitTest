@@ -47,7 +47,7 @@ Begin ContainerControl UnitTestPanel
    Begin PushButton RunButton
       AutoDeactivate  =   True
       Bold            =   ""
-      ButtonStyle     =   0
+      ButtonStyle     =   1
       Cancel          =   ""
       Caption         =   "Run"
       Default         =   ""
@@ -57,7 +57,7 @@ Begin ContainerControl UnitTestPanel
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   ""
-      Left            =   690
+      Left            =   670
       LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   False
@@ -73,12 +73,12 @@ Begin ContainerControl UnitTestPanel
       Top             =   504
       Underline       =   ""
       Visible         =   True
-      Width           =   80
+      Width           =   100
    End
    Begin PushButton RunUntilFailButton
       AutoDeactivate  =   True
       Bold            =   ""
-      ButtonStyle     =   0
+      ButtonStyle     =   1
       Cancel          =   ""
       Caption         =   "Run'til fail"
       Default         =   ""
@@ -88,7 +88,7 @@ Begin ContainerControl UnitTestPanel
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   ""
-      Left            =   588
+      Left            =   566
       LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   False
@@ -104,12 +104,12 @@ Begin ContainerControl UnitTestPanel
       Top             =   504
       Underline       =   ""
       Visible         =   True
-      Width           =   90
+      Width           =   100
    End
    Begin PushButton StopButton
       AutoDeactivate  =   True
       Bold            =   ""
-      ButtonStyle     =   0
+      ButtonStyle     =   1
       Cancel          =   ""
       Caption         =   "Stop"
       Default         =   ""
@@ -119,7 +119,7 @@ Begin ContainerControl UnitTestPanel
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   ""
-      Left            =   496
+      Left            =   462
       LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   False
@@ -135,12 +135,12 @@ Begin ContainerControl UnitTestPanel
       Top             =   504
       Underline       =   ""
       Visible         =   True
-      Width           =   80
+      Width           =   100
    End
    Begin PushButton ExportButton
       AutoDeactivate  =   True
       Bold            =   ""
-      ButtonStyle     =   0
+      ButtonStyle     =   1
       Cancel          =   ""
       Caption         =   "Export..."
       Default         =   ""
@@ -150,7 +150,7 @@ Begin ContainerControl UnitTestPanel
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   ""
-      Left            =   404
+      Left            =   358
       LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   False
@@ -166,7 +166,7 @@ Begin ContainerControl UnitTestPanel
       Top             =   504
       Underline       =   ""
       Visible         =   True
-      Width           =   80
+      Width           =   100
    End
    Begin GroupBox GroupBox1
       AutoDeactivate  =   True
@@ -1694,6 +1694,10 @@ End
 		  #Pragma Unused column
 		  #Pragma Unused x
 		  #Pragma Unused y
+		  
+		  #if TargetMacOS
+		    If Me.Selected(row) Then Return False
+		  #endif
 		  
 		  If Me.Cell(row, ColResult) = TestResult.Failed Then
 		    g.ForeColor = &cFF151500
